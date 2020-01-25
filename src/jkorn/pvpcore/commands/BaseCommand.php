@@ -196,7 +196,7 @@ class BaseCommand extends Command
 
 
         if($result and $param->hasExactValues()) {
-            $result = !$param->isExactValue($s);
+            $result = $param->isExactValue($s);
         }
 
 
